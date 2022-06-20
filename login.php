@@ -13,7 +13,7 @@
 
         <form action="login.php" method="post">
             <input type="text" name="email" placeholder="Enter your mail">
-            <input type="text" name="password" placeholder="Enter your password">
+            <input type="password" name="password" placeholder="Enter your password">
             <input type="submit" value="send">
         </form>
     </body>
