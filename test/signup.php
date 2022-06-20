@@ -16,10 +16,9 @@
 
         <h1>SignUp</h1>
         <span>or  <a href="login.php"> login</a></span>
-        <form action="signup.php" method="post">
-            <input type="text" name="email" placeholder="Enter your mail">
-            <input type="password" name="password" placeholder="Enter your password">
-            <input type="password" name="password_confirm" placeholder="Confirm your password">
+        <form action="conn.php" method="post">
+            <input type="text" name="mail" placeholder="Enter your mail">
+            <input type="password" name="pass" placeholder="Enter your password">
             <input type="submit" value="Send">
         </form>
     </body>
