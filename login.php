@@ -11,7 +11,7 @@
     <body>
         <?php require "partials/header.php" ?>
         <h1>Login</h1>
-
+        <span>or  <a href="signup.php"> signup</a></span>
         <form action="login.php" method="post">
             <input type="text" name="email" placeholder="Enter your mail">
             <input type="password" name="password" placeholder="Enter your password">
